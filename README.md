@@ -20,7 +20,7 @@ Create FilterBreaker 是一个**客户端**模组，用于在本地或获得授�
 
 | 版本 | Minecraft | 加载器 | Create | 仓库内状态 |
 |---|---|---|---|---|
-| **1.20.1 移植版** | 1.20.1 | Forge 47.x | 6.0.x（实测 6.0.8） | 提供构建提示词与参考源码，构建产物需按 `docs/1.20.1-port-prompt.md` 生成 |
+| **1.20.1 移植版** | 1.20.1 | Forge 47.x | 6.0.x（实测 6.0.8） | `dist/create-filter-breaker-forge-1.20.1-0.1.0.jar` 已附带 |
 | 1.21.1 原版 | 1.21.1 | NeoForge 21.1.235 | 6.0.10 | `dist/create-filter-breaker-1.21.1-0.1.0.jar` 已附带 |
 
 两个版本的类名与构造器一致：
@@ -41,25 +41,21 @@ com.simibubi.create.content.logistics.stockTicker.StockKeeperCategoryRefundPacke
 
 ## 下载与安装
 
+### 1.20.1（主版本）
+
+1. 下载 `dist/create-filter-breaker-forge-1.20.1-0.1.0.jar`；
+2. 准备 Minecraft 1.20.1、Java 17、Forge 47.x、Create 6.0.x；
+3. 把 jar 放入客户端实例的 `mods` 目录；
+4. 启动游戏，在模组列表中确认 **Create FilterBreaker (Forge 1.20.1)**。
+
+构建说明见 `docs/1.20.1-port-prompt.md`。
+
 ### 1.21.1
 
 1. 下载 `dist/create-filter-breaker-1.21.1-0.1.0.jar`；
 2. 准备 Minecraft 1.21.1、Java 21、NeoForge 21.1.235、Create 6.0.10；
 3. 把 jar 放入客户端实例的 `mods` 目录；
 4. 启动游戏，在模组列表中确认 **Create FilterBreaker**。
-
-### 1.20.1
-
-本仓库暂未附带 1.20.1 的构建产物。把 `docs/1.20.1-port-prompt.md` 交给 AI 或开发者，按提示词构建；产物命名为 `create-filter-breaker-forge-1.20.1-0.1.0.jar`，放入 `dist/`。
-
-构建目标：
-
-| 项目 | 值 |
-|---|---|
-| Minecraft | 1.20.1 |
-| Forge | 47.x |
-| Create | 6.0.x |
-| Java | 17 |
 
 ---
 
@@ -177,6 +173,7 @@ if (!filter.isEmpty() && filter.getItem() instanceof FilterItem)
 ├── LICENSE
 ├── CHANGELOG.md
 ├── dist\
+│   ├── create-filter-breaker-forge-1.20.1-0.1.0.jar
 │   ├── create-filter-breaker-1.21.1-0.1.0.jar
 │   └── README.md
 ├── source\

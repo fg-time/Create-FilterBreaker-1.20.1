@@ -4,6 +4,7 @@
 
 ### 发布包整理
 
+- 附带 1.20.1 移植构建 `create-filter-breaker-forge-1.20.1-0.1.0.jar`；
 - 归档 1.21.1 原版构建，重命名为 `create-filter-breaker-1.21.1-0.1.0.jar`；
 - 附带 1.21.1 原版 mod 反编译源码；
 - 附带 Create 6.0.8 (1.20.1) 关键类反编译参考；
@@ -15,5 +16,5 @@
 
 ### 说明
 
-- 1.20.1 构建产物暂未随仓库附带，按 `docs/1.20.1-port-prompt.md` 构建；
+- 1.20.1 jar 的 SHA-256：`2e91175ff14bba394e5adeb64a8349cce434f36d40eedf43535024b27997f6ba`；
 - 1.21.1 jar 的 SHA-256：`b583becad6cac63828722487560e8e2ab49191980c679d756b28cadb5b663335`。
