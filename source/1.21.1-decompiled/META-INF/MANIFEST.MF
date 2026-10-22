@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Specification-Title: Create FilterBreaker
+Specification-Vendor: Adnermo
+Specification-Version: 0.1.0
+Implementation-Title: Create-FilterBreaker
+Implementation-Vendor: Adnermo
+Implementation-Version: 0.1.0
+
